@@ -7,7 +7,7 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom(['METEOR@0.9.0']);
   api.use([
-    'mrt:googlemaps'
+    'mrt:googlemaps@0.1.1'
   ]);
   api.addFiles([
     'src/MarkerWithLabel.js'
